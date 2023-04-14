@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" 
+"http://www.wapforum.org/DTD/wml13.dtd">
+
+<wml>
+  <template>
+    <do name="main_menu" type="accept" label="Subject ">
+      <go href="Subjexts"/>
+    </do>
+    <do name="menu_1" type="accept" label="Subjext 1">
+      <go href="#Subjext1"/>
+    </do>
+    <do name="menu_2" type="accept" label="Subjext 2">
+      <go href="#Subjext2"/>
+    </do>
+    <do name="menu_3" type="accept" label="Subjext 3">
+      <go href="#Subjext3"/>
+    </do>
+    <do name="menu_4" type="accept" label="Subjext 4">
+      <go href="#Subjext4"/>
+    </do>
+  </template>
+
+  <card id="Subjexts" title="WML Tutorial">
+    <p>
+      Select One Subjext:<br/>
+      <anchor>
+        <go href="#Subjext1"/>
+        Subjext 1: Operating System
+      </anchor><br />
+
+      <anchor>
+        <go href="#Subjext2"/>
+        Subjext 2: Mobile Computing
+      </anchor><br />
+
+      <anchor>
+        <go href="#Subjext3"/>
+        Subjext 3: Cloud Computing
+      </anchor><br />
+
+      <anchor>
+        <go href="#Subjext4"/>
+        Subjext 4: Software Engineering
+      </anchor><br />
+    </p>
+  </card>
+
+  <card id="Subjext1" title=" Operating System">
+    <p>
+      <em>Subjext 1:  Operating System</em><br/>
+      ...
+    </p>
+  </card>
+
+  <card id="Subjext2" title=" Mobile Computing">
+    <p>
+      <em>Subjext 2:  Mobile Computing</em><br/>
+      ...
+    </p>
+  </card>
+
+  <card id="Subjext3" title="Cloud Computing">
+    <p>
+      <em>Subjext 3: Cloud Computing</em><br/>
+      ...
+    </p>
+  </card>
+
+  <card id="Subjext4" Software Engineering">
+    <p>
+      <em>Subjext 4: Software Engineering</em><br/>
+      ...
+    </p>
+  </card>
+</wml>
