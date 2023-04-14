@@ -11,3 +11,16 @@ This is an image
 </p>
 </card>
 </wml>
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card title="Image"> 
+<p>
+This is an image
+<img src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png" alt="google" />
+
+</p>
+</card>
+</wml>
