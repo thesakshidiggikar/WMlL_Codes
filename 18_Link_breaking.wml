@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">
+
+<wml>
+  <card id="card1" title="Line Break">
+    <p>
+      Before br<br/>After br
+    </p>
+  </card>
+</wml>
